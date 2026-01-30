@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <div id="valentine-card">
+            <div id="bugcat-top">
+                <img src="images/bugcat_happy.gif" alt="Happy Bugcat" class="bugcat-sticker">
+            </div>
+            <h1 id="heading">Will you be my Valentine?</h1>
+            <div id="button-container">
+                <button id="yesButton" onclick="handleYesClick()">Yes</button>
+                <button id="noButton" onclick="handleNoClick()">No</button>
+            </div>
+            <div id="bugcat-sad-section" class="hidden">
+                <img src="images/bugcat_sad.gif" alt="Sad Bugcat" class="bugcat-sticker">
+            </div>
+            <div id="success-screen" class="hidden">
+                <h1 id="success-heading">Yay! I love you! ❤️</h1>
+                <div id="bugcat-celebration">
+                    <img src="images/bugcat_celebrate.gif" alt="Celebrating Bugcat" class="bugcat-large">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
